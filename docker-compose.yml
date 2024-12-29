@@ -1,0 +1,11 @@
+version: "3"
+
+
+services:
+  main:
+   container_name: main_process
+   build:
+     context: .
+   volumes:
+      - .:/app/
+   restart: unless-stopped

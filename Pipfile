@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+annotated-types = "==0.7.0"
+isort = "==5.13.2"
+loguru = "==0.7.3"
+pyaes = "==1.6.1"
+pyasn1 = "==0.6.1"
+pydantic = "==2.10.4"
+pydantic-settings = "==2.7.0"
+pydantic-core = "==2.27.2"
+pysocks = "==1.7.1"
+python-dotenv = "==1.0.1"
+python-socks = "==2.6.1"
+rsa = "==4.9"
+telethon = "==1.38.1"
+tqdm = "==4.67.1"
+typing-extensions = "==4.12.2"
+aiogram = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

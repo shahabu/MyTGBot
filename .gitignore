@@ -1,0 +1,9 @@
+.venv
+.env
+Pipfile
+Pipfile.lock
+__pycache__/
+sessions/*
+skipped/*
+channel_list.txt
+*.sqlite3
